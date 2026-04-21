@@ -1,0 +1,16 @@
+DROP INDEX IF EXISTS idx_products_category;
+DROP INDEX IF EXISTS idx_products_status;
+DROP INDEX IF EXISTS idx_orders_user_id;
+DROP INDEX IF EXISTS idx_reviews_product_id;
+DROP INDEX IF EXISTS idx_cart_items_user_id;
+DROP INDEX IF EXISTS idx_cart_items_product_id;
+DROP INDEX IF EXISTS idx_order_items_order_id;
+DROP INDEX IF EXISTS idx_order_items_product_id;
+DROP INDEX IF EXISTS idx_categories_parent_id;
+DROP INDEX IF EXISTS idx_addresses_user_id;
+DROP INDEX IF EXISTS idx_product_images_product_id;
+DROP INDEX IF EXISTS idx_payments_order_id;
+DROP INDEX IF EXISTS idx_wishlist_items_product_id;
+DROP INDEX IF EXISTS idx_coupons_code_lower;
+DROP INDEX IF EXISTS idx_addresses_one_default_per_user;
+DROP INDEX IF EXISTS idx_product_images_one_primary_per_product;
